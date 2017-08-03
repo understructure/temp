@@ -12,7 +12,7 @@ The simplest way to get started is to setup a single node EMR cluster running Ap
 
 Login to the AWS Console.  Under Analytics, click EMR.
 
-[Services Screen](images/Analytics_EMR.png)
+[Services Screen](./images/Analytics_EMR.png)
 
 Click the Create Cluster button in the upper left-hand corner.  You should be taken to the Create Cluster – Quick Options screen.  Click Go to advanced options.  You will go through four steps:  Software and Steps, Hardware, General Cluster Settings, and Security.
 
@@ -22,7 +22,7 @@ Click the Create Cluster button in the upper left-hand corner.  You should be ta
 
 Select emr-5.7.0 on the Release drop-down menu.  This version of EMR was released in July, 2017.  Also, ensure that the only checkboxes that are ticked are Spark 2.1.1 and Zeppelin 0.7.2.  All other options can be left as defaults.
 
-[Advanced General](images/cc_advanced.png)
+[Advanced General](./images/cc_advanced.png)
 
 ### Step 2: Hardware
 
