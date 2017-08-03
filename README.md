@@ -16,7 +16,7 @@ Login to the AWS Console.  Under Analytics, click EMR.
 
 Click the Create Cluster button in the upper left-hand corner.  You should be taken to the Create Cluster – Quick Options screen.  Click Go to advanced options.  You will go through four steps:  Software and Steps, Hardware, General Cluster Settings, and Security.
 
-
+![general01.png](./images/general01.png)
 
 ### Step 1: Software and Steps
 
@@ -28,7 +28,6 @@ Select emr-5.7.0 on the Release drop-down menu.  This version of EMR was release
 
 Here, ensure your Network reads (default).  For the EC2 subnet, you’ll probably want to choose the subnet that correlates to Default in us-east-1a (see note below).  Change the Root device EBS volume size to 20 GiB.
 
-![general01.png](./images/general01.png)
 ![hardware.png](./images/hardware.png)
 ![node_types.png](./images/node_types.png)
 
@@ -52,11 +51,14 @@ Select an EC2 key pair to use to SSH into the cluster and leave all the other op
 
 ![security01.png](./images/security01.png)
 
-Under EC2 Security Groups, select an additional security group for your Master node that will allow you to access the Master node via SSH.  Click the Assign security groups button to return to the Security screen.
+Under EC2 Security Groups, select an additional security group for your Master node that will allow you to access the Master node via SSH. 
 
 ![security02.png](./images/security02.png)
 
-Click the Create cluster button in the lower right-hand corner of your screen.  You will be taken to a screen showing the Names, IDs and statuses of any EMR clusters you have setup in the last 30 days.  Your newly-created cluster will appear in the Starting state.
+Click the Assign security groups button to return to the Security screen.
 
 ![security03.png](./images/security03.png)
+
+Click the Create cluster button in the lower right-hand corner of your screen.  You will be taken to a screen showing the Names, IDs and statuses of any EMR clusters you have setup in the last 30 days.  Your newly-created cluster will appear in the Starting state.
+
 
