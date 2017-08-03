@@ -16,7 +16,6 @@ Login to the AWS Console.  Under Analytics, click EMR.
 
 Click the Create Cluster button in the upper left-hand corner.  You should be taken to the Create Cluster – Quick Options screen.  Click Go to advanced options.  You will go through four steps:  Software and Steps, Hardware, General Cluster Settings, and Security.
 
-![general01.png](./images/general01.png)
 
 ### Step 1: Software and Steps
 
@@ -44,6 +43,8 @@ Click the Next button in the lower right-hand corner to continue to the next scr
 ### Step 3: General Cluster Settings
 
 Enter a name for your cluter, and leave all the other options defaulted.  If you have a specific bucket setup for EMR logs, you may enter that in the S3 folder text box under Logging, otherwise a bucket named aws-logs-<YOUR-ACCOUNT-ID>-<REGION-NAME> will be set up for you, and your logs will be stored under a key named elasticmapreduce.
+
+![general01.png](./images/general01.png)
 
 ### Step 4: Security
 
