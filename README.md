@@ -39,7 +39,7 @@ Hover your mouse over the information (white lowercase “I” in gray circle) i
 
 ![spot_prices.png](./images/spot_prices.png)
 
-Go ahead and enter your Maximum bid price at a penny or two greater than the current spot price for the Availability Zone that corresponds with the EC2 Subnet you selected in the drop-down menu above.  Keep in mind that you want to carefully select the lowest priced option, and only bid at most a few cents over the current Price to minimize costs.  Also keep in mind that if the price rises above your Maximum bid price, your cluster will be terminated.  Per AWS rules, you will not be charged for a partial instance hour in which AWS terminates your resources due to the bid price changing.  Also, if the bid price you enter is below the current spot price, your EMR cluster will fail to start.
+Enter your Maximum bid price at a penny or two greater than the current spot price for the Availability Zone that corresponds with the EC2 Subnet you selected in the drop-down menu above.  Keep in mind that you want to carefully select the lowest priced option, and only bid at most a few cents over the current Price to minimize costs.  Also keep in mind that if the price rises above your Maximum bid price, your cluster will be terminated.  Per AWS rules, you will not be charged for a partial instance hour in which AWS terminates your resources due to the bid price changing.  Also, if the bid price you enter is below the current spot price, your EMR cluster will fail to start.
 
 Click the **Next** button in the lower right-hand corner to continue to the next screen.
 
